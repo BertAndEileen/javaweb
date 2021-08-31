@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  /*  alert("hello");
+    window.alert("hi");
+    var flag = confirm("你确定要退出吗");
+    if (flag) {
+        alert("欢迎下次光临");
+    } else {
+        alert("不退出，继续使用")
+    }
+    //显示输入框
+    var value = prompt("请输入用户名");
+    alert(value);
+
+    //打开新窗口
+    var openBtn = document.getElementById("openBtn");
+    var newWindow;
+    openBtn.onclick = function(){
+        //打开新窗口
+        newWindow = open("https://www.baidu.com");
+    }
+    //关闭新窗口
+    var closeBtn = document.getElementById("closeBtn");
+    closeBtn.onclick = function(){
+        // 关闭新窗口
+        newWindow.close();
+    }*/
+
+  //与定时器有关的
+    //一次性定时器
+   // setTimeout("fun();",3000);
+//var id=setTimeout(fun,3000);//还可这样对象引用
+  //取消定时器
+  clearTimeout(id);
+     function fun() {
+         alert('boom')
+     }
+     //循环定时器
+    var id = setInterval(fun,2000);
+     clearInterval(id)
+</script>
+</body>
+</html>

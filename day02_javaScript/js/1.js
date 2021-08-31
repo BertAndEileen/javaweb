@@ -1,0 +1,1 @@
+alert("javascript第二方式");

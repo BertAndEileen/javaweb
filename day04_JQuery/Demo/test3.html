@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/jquery-1.7.2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+     $(function () {
+         // 要使用val()来设置表单项的选中状态
+        /* $(":radio").val(["radio2"]);//设置单选的选中状态
+         $(":checkbox").val(["checkbox1","checkbox2"]);//设置多选选中状态
+         $("#multiple").val(["mul1","mul2"]);//设置多选下拉状态
+         $("#single").val(["sin1"]);*/
+
+        //还可以组合
+         $("#multiple,:radio,:checkbox,#single").val(["mul3","sin3","radio1","checkbox2","checkbox1"]);
+     });
+    </script>
+</head>
+<body>
+单选：
+<input name="radio" type="radio" value="radio1" />radio1
+<input name="radio" type="radio" value="radio2" />radio2
+<br/>
+多选：
+<input name="checkbox" type="checkbox" value="checkbox1" />checkbox1
+<input name="checkbox" type="checkbox" value="checkbox2" />checkbox2
+<input name="checkbox" type="checkbox" value="checkbox3" />checkbox3
+<br/>
+下拉多选 ：
+<select id="multiple" multiple="multiple" size="4">
+    <option value="mul1">mul1</option>
+    <option value="mul2">mul2</option>
+    <option value="mul3">mul3</option>
+    <option value="mul4">mul4</option>
+</select>
+<br/>
+下拉单选 ：
+<select id="single">
+    <option value="sin1">sin1</option>
+    <option value="sin2">sin2</option>
+    <option value="sin3">sin3</option>
+</select>
+</body>
+</html>

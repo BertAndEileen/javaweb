@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script/jquery-1.7.2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            // html()	它可以设置和获取起始标签和结束标签中的内容
+            $("div").html("骑单车去酒吧");//设置内容
+            alert($("div").html());//不传参数就是获取
+            // text()	它可以设置和获取起始标签和结束标签中的文本
+            $("div").text("该省省该花花");
+            alert($("div").text());//只能显示文本，加标签也不能识别
+            // val()	可以获取和设置表单项的value属性值.
+            var v = $("#username").val("万事浮沉");//传参就是设值
+            alert(v.val());
+        });
+    </script>
+</head>
+<body>
+<div>我是div</div>
+<input type="text" name="username" id="username"/>
+</body>
+</html>

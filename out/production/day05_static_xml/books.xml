@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books>
+    <book sn="SN12341232">
+        <name>笑傲江湖</name>
+        <price>33</price>
+        <author>令狐冲</author>
+    </book>
+    <book sn="SN12341231">
+        <name>鹿鼎记</name>
+        <price>35</price>
+        <author>金庸</author>
+    </book>
+</books>

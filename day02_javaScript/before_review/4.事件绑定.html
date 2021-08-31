@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<!--第一种获取方式-->
+<img id="light" src="../img/off.gif" onclick="fun1();">
+<img id="light2" src="../img/off.gif" >
+<script>
+    function fun1() {
+        alert('我被点了');
+        alert('我又被点了');
+    }
+
+    function fun2() {
+        alert('咋老点我');
+    }
+    //第二种获取方式
+    var light2 = document.getElementById("light2");
+    light2.onclick=fun2;
+</script>
+</body>
+</html>

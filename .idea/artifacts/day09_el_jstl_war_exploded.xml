@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day09_el&amp;jstl:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day09_el_jstl_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="day09_el&amp;jstl/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day09_el&amp;jstl" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.hamcrest.core_1.3.0" />
+          <element id="library" level="project" name="jstl" />
+          <element id="file-copy" path="$PROJECT_DIR$/day09_el&amp;jstl/web/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

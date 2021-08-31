@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+<?xml version="1.0" encoding="utf-8" ?>
+这是xml的声明，表示是一个xml文件，
+同时还设置xmld的一些属性
+version="1.0"   版本
+encoding="utf-8 字符集
+-->
+<!--books标签它没有父元素，我们管他叫根元素，
+    根元素是顶级元素，没有父元素的标签，而且只有一个-->
+<books>
+    <book sn="SN123456"><!--book表示图书信息，sn表示图书出版号-->
+     <name>西游记</name>
+     <author>吴承恩</author>
+     <price>9.9</price>
+    </book>
+
+    <book sn="SN1234567"><!--book表示图书信息，sn表示图书出版号-->
+        <name>三国演义</name>
+        <author>罗贯中</author>
+        <price>10</price>
+    </book>
+    <book sn="SN123456"><!--book表示图书信息，sn表示图书出版号-->
+        <name>红楼梦</name>
+        <author>曹雪芹</author>
+        <price>11</price>
+    </book>
+</books>
